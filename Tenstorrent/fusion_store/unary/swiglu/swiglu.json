@@ -1,0 +1,86 @@
+{
+    "name": "swiglu",
+    "category": "unary",
+    "args": null,
+    "input_range": null,
+    "validated": true,
+    "device_speedup": 2.313938386192702,
+    "total_speedup": 0.9987726999026882,
+    "device_speedup_gmean": 2.313938386192702,
+    "device_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    1,
+                    1,
+                    32,
+                    64
+                ]
+            ],
+            "device_speedup": 1.9833630879859165
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    1,
+                    1,
+                    128,
+                    512
+                ]
+            ],
+            "device_speedup": 2.260159496031805
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    1,
+                    1,
+                    1024,
+                    4096
+                ]
+            ],
+            "device_speedup": 2.7638473826332586
+        }
+    ],
+    "total_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    1,
+                    1,
+                    32,
+                    64
+                ]
+            ],
+            "total_speedup": 0.8944636700053723
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    1,
+                    1,
+                    128,
+                    512
+                ]
+            ],
+            "total_speedup": 1.1144724510731563
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    1,
+                    1,
+                    1024,
+                    4096
+                ]
+            ],
+            "total_speedup": 0.9994658180102867
+        }
+    ]
+}

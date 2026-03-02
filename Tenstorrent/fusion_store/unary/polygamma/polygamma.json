@@ -1,0 +1,103 @@
+{
+    "name": "polygamma",
+    "category": "unary",
+    "args": null,
+    "input_range": [
+        1.0,
+        10.0
+    ],
+    "validated": true,
+    "device_speedup": 2.7964440389789504,
+    "total_speedup": 2.8854200626949043,
+    "device_speedup_gmean": 2.7964440389789504,
+    "device_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    32,
+                    32
+                ]
+            ],
+            "device_speedup": 3.405358612373799
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    32,
+                    128
+                ]
+            ],
+            "device_speedup": 3.597312829184137
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    5,
+                    2240,
+                    32
+                ]
+            ],
+            "device_speedup": 2.6451019002978473
+        },
+        {
+            "case_idx": 3,
+            "shape": [
+                [
+                    3,
+                    2,
+                    32,
+                    5600
+                ]
+            ],
+            "device_speedup": 1.8873005391626179
+        }
+    ],
+    "total_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    32,
+                    32
+                ]
+            ],
+            "total_speedup": 2.6391076713879507
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    32,
+                    128
+                ]
+            ],
+            "total_speedup": 4.34117329650065
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    5,
+                    2240,
+                    32
+                ]
+            ],
+            "total_speedup": 3.242953016781403
+        },
+        {
+            "case_idx": 3,
+            "shape": [
+                [
+                    3,
+                    2,
+                    32,
+                    5600
+                ]
+            ],
+            "total_speedup": 1.865654843400988
+        }
+    ]
+}

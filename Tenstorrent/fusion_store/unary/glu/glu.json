@@ -1,0 +1,36 @@
+{
+    "name": "glu",
+    "category": "unary",
+    "args": null,
+    "input_range": null,
+    "validated": true,
+    "device_speedup": 3.0168072813433864,
+    "total_speedup": 0.9119474111727423,
+    "device_speedup_gmean": 2.787985905698157,
+    "device_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    32,
+                    32,
+                    32,
+                    64
+                ]
+            ],
+            "device_speedup": 3.0168072813433864
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    3,
+                    2,
+                    32,
+                    4096
+                ]
+            ],
+            "device_speedup": 2.5765203692130814
+        }
+    ]
+}

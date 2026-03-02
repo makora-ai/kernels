@@ -1,0 +1,46 @@
+{
+    "name": "lgamma",
+    "category": "unary",
+    "args": null,
+    "input_range": [
+        1.0,
+        20.0
+    ],
+    "validated": true,
+    "device_speedup": 4.301817207047134,
+    "total_speedup": 3.0325277054569852,
+    "device_speedup_gmean": 3.796028107220125,
+    "device_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    32,
+                    32
+                ]
+            ],
+            "device_speedup": 4.301817207047134
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    32,
+                    128
+                ]
+            ],
+            "device_speedup": 4.404099127165116
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    5,
+                    2240,
+                    32
+                ]
+            ],
+            "device_speedup": 2.8872156323382647
+        }
+    ]
+}

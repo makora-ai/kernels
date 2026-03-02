@@ -1,0 +1,138 @@
+{
+    "name": "isclose",
+    "category": "binary",
+    "args": null,
+    "input_range": null,
+    "validated": true,
+    "device_speedup": 5.051765490430293,
+    "total_speedup": 1.9974512411004874,
+    "device_speedup_gmean": 5.051765490430293,
+    "device_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    32,
+                    32
+                ],
+                [
+                    32,
+                    32
+                ]
+            ],
+            "device_speedup": 5.456859595352367
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    4,
+                    384
+                ],
+                [
+                    4,
+                    384
+                ]
+            ],
+            "device_speedup": 5.809412187929943
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    4,
+                    384,
+                    4096
+                ],
+                [
+                    4,
+                    384,
+                    4096
+                ]
+            ],
+            "device_speedup": 4.531224684745813
+        },
+        {
+            "case_idx": 3,
+            "shape": [
+                [
+                    4,
+                    1,
+                    384,
+                    4096
+                ],
+                [
+                    4,
+                    1,
+                    384,
+                    4096
+                ]
+            ],
+            "device_speedup": 4.534006711581668
+        }
+    ],
+    "total_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    32,
+                    32
+                ],
+                [
+                    32,
+                    32
+                ]
+            ],
+            "total_speedup": 1.647543788431446
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    4,
+                    384
+                ],
+                [
+                    4,
+                    384
+                ]
+            ],
+            "total_speedup": 1.336659331607894
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    4,
+                    384,
+                    4096
+                ],
+                [
+                    4,
+                    384,
+                    4096
+                ]
+            ],
+            "total_speedup": 2.829419830973088
+        },
+        {
+            "case_idx": 3,
+            "shape": [
+                [
+                    4,
+                    1,
+                    384,
+                    4096
+                ],
+                [
+                    4,
+                    1,
+                    384,
+                    4096
+                ]
+            ],
+            "total_speedup": 2.5547573253774356
+        }
+    ]
+}

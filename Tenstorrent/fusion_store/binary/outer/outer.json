@@ -1,0 +1,66 @@
+{
+    "name": "outer",
+    "category": "binary",
+    "args": null,
+    "input_range": null,
+    "validated": true,
+    "device_speedup": 2.543443264393516,
+    "total_speedup": 0.5499841813375521,
+    "device_speedup_gmean": 2.876210492872506,
+    "device_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    1,
+                    1,
+                    32,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    32
+                ]
+            ],
+            "device_speedup": 2.543443264393516
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    1,
+                    1,
+                    64,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    128
+                ]
+            ],
+            "device_speedup": 2.3888187411009323
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    32,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    32,
+                    1,
+                    1
+                ]
+            ],
+            "device_speedup": 3.9161268144558985
+        }
+    ]
+}
