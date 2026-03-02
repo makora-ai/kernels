@@ -1,0 +1,48 @@
+{
+    "name": "digamma",
+    "category": "unary",
+    "args": null,
+    "input_range": [
+        1.0,
+        20.0
+    ],
+    "validated": true,
+    "device_speedup": 7.345893247558309,
+    "total_speedup": 2.556158065050291,
+    "device_speedup_gmean": 6.256861933345804,
+    "device_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    32,
+                    128
+                ]
+            ],
+            "device_speedup": 7.345893247558309
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    5,
+                    2240,
+                    32
+                ]
+            ],
+            "device_speedup": 6.899937916825114
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    3,
+                    2,
+                    32,
+                    5600
+                ]
+            ],
+            "device_speedup": 4.832589649132592
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "name": "triu",
+    "category": "unary",
+    "args": null,
+    "input_range": null,
+    "validated": true,
+    "device_speedup": 0.567140757354321,
+    "total_speedup": 5.085155319473346,
+    "device_speedup_gmean": 0.567140757354321,
+    "device_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    32,
+                    32
+                ]
+            ],
+            "device_speedup": 1.144870906383167
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    32,
+                    64
+                ]
+            ],
+            "device_speedup": 1.1399128403919774
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    4,
+                    384,
+                    4096
+                ]
+            ],
+            "device_speedup": 0.2816613725493827
+        },
+        {
+            "case_idx": 3,
+            "shape": [
+                [
+                    4,
+                    1,
+                    384,
+                    4096
+                ]
+            ],
+            "device_speedup": 0.2814543589513536
+        }
+    ],
+    "total_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    32,
+                    32
+                ]
+            ],
+            "total_speedup": 0.600118173692641
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    32,
+                    64
+                ]
+            ],
+            "total_speedup": 0.7914406559377166
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    4,
+                    384,
+                    4096
+                ]
+            ],
+            "total_speedup": 36.17213448819195
+        },
+        {
+            "case_idx": 3,
+            "shape": [
+                [
+                    4,
+                    1,
+                    384,
+                    4096
+                ]
+            ],
+            "total_speedup": 38.92132511831089
+        }
+    ]
+}

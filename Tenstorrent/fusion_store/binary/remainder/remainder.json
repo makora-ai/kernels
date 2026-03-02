@@ -1,0 +1,77 @@
+{
+    "name": "remainder",
+    "category": "binary",
+    "args": null,
+    "input_range": [
+        0.1,
+        100.0
+    ],
+    "validated": true,
+    "device_speedup": 2.991534684012958,
+    "total_speedup": 1.5488394353436452,
+    "device_speedup_gmean": 3.3224911876805248,
+    "device_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    32,
+                    32
+                ],
+                [
+                    32,
+                    32
+                ]
+            ],
+            "device_speedup": 2.991534684012958
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    4,
+                    384
+                ],
+                [
+                    4,
+                    384
+                ]
+            ],
+            "device_speedup": 2.9946079013525675
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    4,
+                    384,
+                    4096
+                ],
+                [
+                    4,
+                    384,
+                    4096
+                ]
+            ],
+            "device_speedup": 3.69053764630572
+        },
+        {
+            "case_idx": 3,
+            "shape": [
+                [
+                    4,
+                    1,
+                    384,
+                    4096
+                ],
+                [
+                    4,
+                    1,
+                    384,
+                    4096
+                ]
+            ],
+            "device_speedup": 3.685799463579712
+        }
+    ]
+}

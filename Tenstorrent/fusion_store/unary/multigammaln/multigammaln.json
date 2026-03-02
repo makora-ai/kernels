@@ -1,0 +1,79 @@
+{
+    "name": "multigammaln",
+    "category": "unary",
+    "args": null,
+    "input_range": [
+        2.5,
+        20.0
+    ],
+    "validated": true,
+    "device_speedup": 5.061929357882053,
+    "total_speedup": 7.2121836753905955,
+    "device_speedup_gmean": 5.061929357882053,
+    "device_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    32,
+                    32
+                ]
+            ],
+            "device_speedup": 5.78597834683831
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    32,
+                    128
+                ]
+            ],
+            "device_speedup": 5.929576032218789
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    5,
+                    2240,
+                    32
+                ]
+            ],
+            "device_speedup": 3.7804873908287453
+        }
+    ],
+    "total_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    32,
+                    32
+                ]
+            ],
+            "total_speedup": 7.552478313567697
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    32,
+                    128
+                ]
+            ],
+            "total_speedup": 9.596796500303094
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    5,
+                    2240,
+                    32
+                ]
+            ],
+            "total_speedup": 5.175884339301698
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "name": "reglu",
+    "category": "unary",
+    "args": null,
+    "input_range": null,
+    "validated": true,
+    "device_speedup": 2.926878878502651,
+    "total_speedup": 1.1522323489533373,
+    "device_speedup_gmean": 2.926878878502651,
+    "device_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    1,
+                    1,
+                    32,
+                    64
+                ]
+            ],
+            "device_speedup": 2.6901695178983585
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    1,
+                    1,
+                    128,
+                    512
+                ]
+            ],
+            "device_speedup": 3.004283379742253
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    3,
+                    2,
+                    1024,
+                    4096
+                ]
+            ],
+            "device_speedup": 3.1023708367673253
+        }
+    ],
+    "total_speedups_by_shape": [
+        {
+            "case_idx": 0,
+            "shape": [
+                [
+                    1,
+                    1,
+                    32,
+                    64
+                ]
+            ],
+            "total_speedup": 0.8418215227674494
+        },
+        {
+            "case_idx": 1,
+            "shape": [
+                [
+                    1,
+                    1,
+                    128,
+                    512
+                ]
+            ],
+            "total_speedup": 1.12985858482293
+        },
+        {
+            "case_idx": 2,
+            "shape": [
+                [
+                    3,
+                    2,
+                    1024,
+                    4096
+                ]
+            ],
+            "total_speedup": 1.6083333844556837
+        }
+    ]
+}
